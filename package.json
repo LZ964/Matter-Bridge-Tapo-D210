@@ -1,0 +1,14 @@
+{
+  "name": "tapo-matter-bridge",
+  "version": "1.0.0",
+  "description": "Bridge local pour Tapo D210 vers Matterbridge",
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js"
+  },
+  "dependencies": {
+    "tp-link-tapo-connect": "^1.1.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
